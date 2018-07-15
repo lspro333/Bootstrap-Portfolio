@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #AAC1C0;
 }
 
 h1 {
@@ -72,21 +72,21 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #AAC1C0;
 }
 
 
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 20px 0;
   clear: both;
   font-size: 12px;
   color: #fff;
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #AAC1C0;
 }
 
 /* sidebar */
@@ -166,7 +166,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #AAC1C0;
   border-bottom: 0;
 }
 
@@ -214,6 +214,6 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #AAC1C0;
   border: 0 none;
 }
