@@ -242,7 +242,13 @@ h3,
 }
 
 .graphicCategories {
-  padding-top: 100px;
+  /* padding-top: 100px; */
+}
+
+#projectRow0 {
+  position: center;
+  padding-left: 20px;
+  padding-top: 0px;
 }
 
 #projectRow1 {
