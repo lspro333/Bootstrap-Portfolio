@@ -62,7 +62,7 @@ a:hover {
 }
 
 a:active {
-  color:#AAC1C0;
+  color:#627E82;
 }
 
 /* header */
@@ -193,7 +193,7 @@ h3,
 
 #contactButton {
   align: center;
-  background-color: #AAC1C0;
+  background-color: #627E82;
   color: white;
 }
 
@@ -293,7 +293,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #AAC1C0;
+  background: #627E82;
   border: 0 none;
 }
 
