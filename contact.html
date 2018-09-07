@@ -12,65 +12,67 @@
 <body>
 
   <header id="masthead">
-      <div class="container">
-          <a href="index.html" id="logo">Lisa Sprowls</a>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">About</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-              </div>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#666;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Portfolio <span class="sr-only"></a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
+        </div>
+    </nav>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h3>Connect with Me</h3>
-
-        <a href="https://github.com/lspro333"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/lisa-sprowls"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackexchange.com/users/12675599/lisa-s"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      <div class="row">
+      <div class="col-md-7">
+        <h1>Contact</h1>
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
       </div>
+      <div class="col-md-4">
+        <section class="sidebar">
+          <div id="connect">
+            <h3>Connect with Me</h3>
+    
+            <a href="https://github.com/lspro333"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+            <a href="https://www.linkedin.com/in/lisa-sprowls"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+            <a href="https://stackexchange.com/users/12675599/lisa-s"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+          </div>
+        </section>
+        </div>
+        </section>
+      </div>
+
     </section>
   </div>
 
-  <div class="fixed-bottom">
-      <footer>
-          <div class="container">
-              Copyright 2018 &copy; 
-          </div>
-      </footer>
-  </div>
+<!-- <div class="fixed-bottom"> -->
+    <footer class="footer">
+        <div class="container">
+            <p> Copyright 2018 &copy; </p>
+        </div>
+    </footer>
+<!-- </div> -->
 </body>
 
 </html>

@@ -3,61 +3,88 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Lisa Sprowls</title>
+  <title>Home | Lisa Sprowls</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-
   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Lisa Sprowls</a>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">About</a>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#666;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+              <a class="nav-item nav-link active" href="index.html">Portfolio <span class="sr-only"></a>
+              <a class="nav-item nav-link" href="about.html">About</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/profile2.jpeg" class="auth-image" alt="Lisa Sprowls">
-
-      <p>Lisa Sprowls is a Colorado-based designer, full-stack developer and MBA graduate with 12 years’ experience in marketing and design. Working experience in retail purchasing, merchandising, data analysis, inventory management, and project management. Exceptional analytical and problem-solving skills and demonstrated ability to work collaboratively with teammates and leaders. 
-        Actively looking for opportunities in the Greater Denver Area. </p>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h3>Connect with Me</h3>
-
-        <a href="https://github.com/lspro333"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/lisa-sprowls"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackexchange.com/users/12675599/lisa-s"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+  <div class="mx-auto">
+    <div class="profileName">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="profileInfo">
+          <img src="assets/images/title.gif" class="img-fluid" alt="Lisa Sprowls">
+        </div>
       </div>
-    </section>
+    </div>
   </div>
 
-  <div class="fixed-bottom">
-    <footer>
+
+  <div class="mx-auto">
+    <div class="portfolioCategories">
         <div class="container">
-            Copyright 2018 &copy; 
+            <div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                  <a href="Graphic_Design.html">
+                    <img class="card-img-top" src="assets/images/graphic_thumbnail.gif" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-text">Graphic Design</h4>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                  <a href="web_development.html">
+                    <img class="card-img-top" src="assets/images/development_thumbnail.gif" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-text">Web Development</h4>
+                    </div>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://www.gminerstudios.com/collections/all">
+                      <img class="card-img-top" src="assets/images/jewelry_thumbnail.gif" alt="Card image cap">
+                      </a>
+                    <div class="card-body">
+                      <a href="https://www.gminerstudios.com/collections/all">
+                        <h4 class="card-text">Jewelry Design</h4>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    </div>
+
+
+  <!-- <div class="fixed-bottom"> -->
+    <footer class="footer">
+        <div class="container">
+          <p> Copyright 2018 &copy; </p>
         </div>
     </footer>
-  </div>
+  <!-- </div> -->
 </body>
 
 </html>
