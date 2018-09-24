@@ -104,7 +104,18 @@ a:active {
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
+}
+
+#connect {
+  padding-top: 30px;
+}
+
+#connectTitle {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
 }
 
 h3,
