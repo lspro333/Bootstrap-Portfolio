@@ -251,6 +251,11 @@ h3,
 
 .card-body {
   background-color: #666;
+  width: 100%;
+}
+
+.card-header {
+  width: 100%;
 }
 
 .portfolioCategories {
