@@ -118,6 +118,10 @@ a:active {
   border-bottom: 2px solid #eee;
 }
 
+#contactContainer {
+  padding-bottom: 100px;
+}
+
 h3,
 .sidebar h2 {
   padding-bottom: 20px;
